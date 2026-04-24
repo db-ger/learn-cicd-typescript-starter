@@ -7,7 +7,8 @@ const person = {
 
 describe("person", () => {
   test("person is defined", () => {
-    expect(person).toBeDefined();
+    //expect(person).toBeDefined();
+throw new Error("Intentional failure");
   });
 
   test("is active", () => {
